@@ -1,0 +1,44 @@
+
+/* EXTERNAL CSS: Styling rules stored in a separate file */
+
+/* Element selectors */
+body {
+    font-family: Arial, sans-serif;
+    color: #403447;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Class selector */
+.about-me {
+    text-align: center;
+}
+
+/* ID selector */
+#profile {
+    background-color: #ffffff;
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 25px;
+    border: 2px solid #d9c5e8;
+    border-radius: 15px;
+}
+
+/* Group selector */
+h3, hr {
+    color: #a16b9b;
+}
+
+/* Descendant selector */
+#profile p {
+    margin-bottom: 20px;
+}
+
+/* Pseudo-class selector */
+a:hover {
+    color: #c05c87;
+    text-decoration: none;
+}
